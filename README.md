@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Showcase of what tailwind 4 looks like in older browser with and without postcss polyfills.
+There is this [gist](https://gist.github.com/alexanderbuhler/2386befd7b6b3be3695667cb5cb5e709) of custom polyfills but it is not working with next :/
 
-## Getting Started
+How it should look like:
+![screen shot of how it should look like](./img/chrome-recent.png)
 
-First, run the development server:
+How it looks like in safari 14 and 12:
+![screen shot of how it looks like in Safari 14](./img/safari-14.png)
+![screen shot of how it looks like in Safari 12](./img/safari-12.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+How it looks like in safari 14 and 12 with postcss polyfills:
+![screen shot of how it looks like in safari 14 with polyfills](./img/safari-14-postcss.png)
+![screen shot of how it looks like in safari 12 with polyfills](./img/safar-12-postcss.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
