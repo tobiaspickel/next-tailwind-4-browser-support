@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "15.3.0",
+    "postcss-calc": "^10.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -25,8 +26,10 @@
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.0",
+    "flex-gap-polyfill": "^5.0.0",
     "postcss": "^8.5.3",
     "postcss-color-mix": "^1.1.0",
+    "postcss-logical": "^8.1.0",
     "postcss-logical-properties-polyfill": "^0.1.2",
     "postcss-media-minmax": "^5.0.0",
     "postcss-nesting": "^13.0.1",
