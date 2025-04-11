@@ -1,5 +1,5 @@
 export default function TestPage() {
-  return <div>
+  return <div className="bg-black">
     <div className="p-4">
       <div className="grid gap-8 items-center">
         <div role="alert" className="rounded-md border border-gray-300 bg-white p-4 shadow-sm">
@@ -134,7 +134,7 @@ export default function TestPage() {
         </a>
       ))}
     </div>
-    <div>
+    <div className="text-gray-100">
       <button>test button</button>
       <h1>test h1</h1>
       <p>test p</p>
